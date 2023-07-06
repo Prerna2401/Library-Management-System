@@ -1,0 +1,251 @@
+
+
+
+	table{
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+  th, td {
+    background-color: #96D4D4;
+  }
+
+
+  .login-form{
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1.8em;
+    border: 3px solid rgb(236, 207, 207);
+    border-radius: 1.5em;
+    font-family: lucida;
+    margin-left: 1cm;
+    margin-left: 3cm;
+
+  }
+
+
+  .h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #b44593;
+  }
+
+.box{
+   /* Center the form on the page */
+   margin: 2 auto;
+   width: 500px;
+   /* Form outline */
+   padding: 2.2em;
+   border: 3px solid rgb(236, 207, 207);
+   border-radius: 1.5em;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   vertical-align: middle;
+   margin-left: 11cm;
+  
+}
+
+.pwd{
+  cursor:grab;
+}
+
+.bod{
+  
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 3px solid rgb(236, 207, 207);
+    border-radius: 1.5em;
+    font-family: lucida;
+    vertical-align: middle;
+  
+}
+
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 3px solid rgb(236, 207, 207);
+    border-radius: 1.5em;
+    font-family: lucida;
+    vertical-align: middle;
+  }
+h1{
+    color: red;
+    font-style: initial;
+    vertical-align: left;
+    text-align: center;
+    font-weight: 32;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:cadetblue;
+    border: 1px solid rgb(175, 109, 33);  
+    padding: 2px ;
+    margin-top: 20px;
+    margin-left: 4px;
+    color: red;
+    height: 1cm;
+
+    
+    
+}
+p{
+    color: azure;
+}
+
+
+h3{
+   border-image: fill;
+}
+
+.st1{
+  margin-left: 15cm;
+}
+
+.h9{
+  color:blue ;
+  font-size:x-large;
+  font-style: gold;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ele{
+  font-style: gold;
+  color: #b44593;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+a:link{
+    color: black;
+}
+a:hover{
+    color: blue;
+}
+.button {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #cfc0bc;
+    border: none;
+    color: #000000;
+    text-align: center;
+    font-size: 14px;
+    padding: 20px;
+    width: 230px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 6px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+
+    .bg-image-vertical {
+      position: relative;
+      overflow: hidden;
+      background-repeat: no-repeat;
+      background-position: right center;
+      background-size: auto 100%;
+      }
+      
+      @media (min-width: 1025px) {
+      .h-custom-2 {
+      height: 100%;
+      }
+      }
+
+.register {
+        width: 44%;
+        float: left;
+        border-left: 1px solid #DDD;
+        padding-left: 40px;
+        text-align: left;
+    }
+    
+.register p {
+        color: #CCC;
+        margin-bottom: 10px;
+    }
+    
+.register p a {
+        color: #CCC;
+    }
+    
+.register p a:hover {
+        color: #FFF;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-bottom: 0;
+      font-weight: 400;
+      text-align: center;
+      vertical-align: middle;
+      cursor: pointer;
+      background-image: none;
+      border: 1px solid transparent;
+      white-space: nowrap;
+      padding: 4px 10px;
+      font-size: 13px;
+      line-height: 1.42857;
+      border-radius: 4px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none
+    }
+    .btn-success {
+      color: #fff;
+      background-color: #3cbc8d;
+      border-color: #36a97f
+    }
