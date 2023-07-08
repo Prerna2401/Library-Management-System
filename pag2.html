@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="s1.css">
+    <body>
+        <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ; font-weight: bold;">
+            Registration Form 
+        </h1>
+
+
+    <form action="form_data.php" method="post" style="font-weight: bold">
+        Username: 
+        <input type="text" name="username" id ="username" style="margin-left: 40.0px;" required ="" >
+        <br>
+        <br>
+        Password: 
+        <input type="text" name="password" id="password" style="margin-left: 44px;" required=""  placeholder="******" class="pwd"> 
+        <br>
+        <br>
+
+        
+
+        Email  Id:
+        <input type="text" name="emailid" id = "emailid" style="margin-left: 50px ;"required ="" >
+        
+        <br>
+        <br>
+        
+        Mobile Number:  
+        <input type="text" name="mobile" id="mobile">
+        <br><br>
+        
+        <label>Preferences :</label>
+        <select name="Genres" id="genre" style="margin-left:.7cm;">
+            <option value="fiction">Fiction</option>
+            <option value="science">Science</option>
+            <option value="crime">Crime</option>
+            <option value="comedy">Comedy</option>
+            <option value="literature">Literature</option>
+        </select>
+        
+        <br><br><br>
+
+        <label>Upload: </label>
+        <input type="file" name="Upload" id="fileselect" style="margin-left:1.5cm;"><br><br>
+        <br>
+        <label>Describe About Yourself:</label><br><br>
+        <textarea style="margin-left: 3cm;" rows="8" cols="30" name="description" id="description"></textarea>
+        <br><br>
+        <input type="checkbox" id="tnc" style="margin-left: 90px;">
+        I Agree To Terms And Conditons
+        <br><br>
+        <input type="submit" name="sub" style="margin-left: 5cm;" rows="8" cols="30">
+
+    </form>
+
+    <div class="button" style="margin-left: 16.5cm;" onclick="document.location='login_land1.php'">
+        <span>Back To Login Page </span>
+    </div>
+    </body>
+    
+
+</head>
